@@ -1,3 +1,5 @@
+package com.valentine;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -9,7 +11,7 @@ import static java.util.Arrays.asList;
 import static java.util.stream.Collectors.toList;
 
 
-public class Tests {
+public class StreamsApiTest {
 
     private List<String> myList() {
 

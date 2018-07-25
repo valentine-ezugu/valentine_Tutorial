@@ -1,9 +1,14 @@
 package com.valentine;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.elasticsearch.action.ActionListener;
 import org.elasticsearch.action.get.GetResponse;
+import org.elasticsearch.action.get.MultiGetItemResponse;
+import org.elasticsearch.action.get.MultiGetResponse;
 import org.elasticsearch.action.index.IndexResponse;
 import org.elasticsearch.client.transport.TransportClient;
+import org.elasticsearch.common.document.DocumentField;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.TransportAddress;
 import org.elasticsearch.common.xcontent.XContentBuilder;
@@ -12,18 +17,22 @@ import org.elasticsearch.index.reindex.BulkByScrollResponse;
 import org.elasticsearch.index.reindex.DeleteByQueryAction;
 import org.elasticsearch.rest.RestStatus;
 import org.elasticsearch.transport.client.PreBuiltTransportClient;
+
 import java.net.InetAddress;
 import java.util.Date;
+import java.util.Map;
+
 import static org.elasticsearch.common.xcontent.XContentFactory.jsonBuilder;
 
 public class ElasticSdk {
 
+    private static final Logger LOGGER = LogManager.getLogger();
 
     public ElasticSdk() throws Exception {
     }
 
-
     Settings settings = Settings.builder().put("cluster.name", "elasticSearch").build();
+
     TransportClient client = new PreBuiltTransportClient(settings).
         addTransportAddress(new TransportAddress(InetAddress.getByName("host1"), 9300)).
         addTransportAddress(new TransportAddress(InetAddress.getByName("host2"), 9300));
@@ -55,7 +64,23 @@ public class ElasticSdk {
     // status has stored current instance statement.
     RestStatus status = response.status();
 
-    GetResponse getResponse = client.prepareGet("twitter", "tweet", "1").get();
+
+    /**
+     * This is a simple method that gets response from an index when request is made.
+     */
+    public void getDocument() {
+        try {
+            GetResponse getResponse = client.prepareGet("twitter", "tweet", "1")
+                .get();
+
+            if (getResponse != null) {
+                Map<String, DocumentField> fields  =   getResponse.getFields();
+                LOGGER.info("Response Data : " + fields.toString());
+            }
+        } catch (Exception ex) {
+            LOGGER.error("Exception occurred while get Document : " + ex, ex);
+        }
+    }
 
 
     /**
@@ -95,6 +120,23 @@ public class ElasticSdk {
                     // Handle the exception
                 }
             });
+        return null;
+    }
+
+    //get multiple doc with one request
+    public String returnResponseAsString() {
+
+        MultiGetResponse multiGetItemResponses = client.prepareMultiGet().
+            add("twitter", "tweet", "1").add("twitter", "tweet", "2", "3", "4").
+            add("another", "type", "foo").get();
+
+        for (MultiGetItemResponse itemResponse : multiGetItemResponses) {
+            GetResponse response = itemResponse.getResponse();
+            if (response.isExists()) {
+                String json = response.getSourceAsString();
+                return json;
+            }
+        }
         return null;
     }
 
