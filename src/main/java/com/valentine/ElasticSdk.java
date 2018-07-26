@@ -7,6 +7,10 @@ import org.elasticsearch.action.get.GetResponse;
 import org.elasticsearch.action.get.MultiGetItemResponse;
 import org.elasticsearch.action.get.MultiGetResponse;
 import org.elasticsearch.action.index.IndexResponse;
+import org.elasticsearch.action.search.MultiSearchResponse;
+import org.elasticsearch.action.search.SearchRequestBuilder;
+import org.elasticsearch.action.search.SearchResponse;
+import org.elasticsearch.action.search.SearchType;
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.document.DocumentField;
 import org.elasticsearch.common.settings.Settings;
@@ -139,6 +143,37 @@ public class ElasticSdk {
         }
         return null;
     }
+
+
+    //how search is made
+    SearchResponse response11= client.prepareSearch("index1", "index2")
+        .setTypes("type1", "type2")
+        .setSearchType(SearchType.DFS_QUERY_THEN_FETCH)
+        .setQuery(QueryBuilders.termQuery("multi", "test"))                 // Query
+        .setPostFilter(QueryBuilders.rangeQuery("age").from(12).to(18))     // Filter
+        .setFrom(0).setSize(60).setExplain(true)
+        .get();
+
+
+    public void multiSearch() {
+        //multiple search api
+        SearchRequestBuilder srb1 = client
+            .prepareSearch().setQuery(QueryBuilders.queryStringQuery("elasticsearch")).setSize(1);
+        SearchRequestBuilder srb2 = client
+            .prepareSearch().setQuery(QueryBuilders.matchQuery("name", "kimchy")).setSize(1);
+
+        MultiSearchResponse sr = client.prepareMultiSearch()
+            .add(srb1)
+            .add(srb2)
+            .get();
+
+        // You will get all individual responses from MultiSearchResponse#getResponses()
+        long nbHits = 0;
+        for (MultiSearchResponse.Item item : sr.getResponses()) {
+            SearchResponse response = item.getResponse();
+            nbHits += response.getHits().getTotalHits();
+        }
+     }
 
 
 }
