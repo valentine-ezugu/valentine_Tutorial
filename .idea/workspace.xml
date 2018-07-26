@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b14f4d2c-4f4f-4231-8cf6-1a1f7e6cb1cf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/EncryptionAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/Encryptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/PersistedFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/Sha256CEncryptionAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/Sha256Encryptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/Sha512EncryptionAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/Sha512Encryptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/BENZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/BMW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/BenzProduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/BmwProduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/CarProduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/FactoryRelease.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/valentine/ElasticSdk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/valentine/ElasticSdk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/valentine/ElasticSdk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/valentine/ElasticSearch/ElasticSdk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/valentine/Index.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/valentine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/valentine/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,21 +33,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ElasticSdk.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/ElasticSdk.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="932">
-              <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
+            <state relative-caret-position="289">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4234#4235#0" expanded="true" />
-                <element signature="e#4310#4311#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sha256Encryptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/Sha256Encryptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BMW.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/BMW.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarProduction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/CarProduction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Encryptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/Encryptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersistedFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/PersistedFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#420#421#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BenzProduction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/BenzProduction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+              <folding>
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,6 +135,26 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/valentine/StreamsApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/valentine/ElasticSdk.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/valentine/designPattern/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/valentine/designPattern/EncryptionAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/Sha512EncryptionAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/Sha256Encryptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/Sha512Encryptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/EncryptionAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/Encryptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/Sha256CEncryptionAlgorithmSha256CEncryptionAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/Sha256CEncryptionAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/PersistedFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/Car.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/BenzPeoduction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/FactoryRelease.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/BmwProduction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/BMW.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/BENZ.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/BenzProduction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/CarProduction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/valentine/Main.java" />
       </list>
     </option>
   </component>
@@ -117,6 +233,24 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="valentine" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="valentine_Tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="valentine_Tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="valentine" type="462c0819:PsiDirectoryNode" />
+              <item name="factoryMethodPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="valentine_Tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="valentine_Tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="valentine" type="462c0819:PsiDirectoryNode" />
+              <item name="factoryMethodPattern1" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -148,6 +282,17 @@
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.valentine.Main" />
+      <module name="valentine_Tutorials" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.valentine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -190,6 +335,11 @@
       <properties />
       <listeners />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -204,7 +354,7 @@
       <workItem from="1532525281292" duration="19000" />
       <workItem from="1532525311793" duration="3997000" />
       <workItem from="1532539889871" duration="1638000" />
-      <workItem from="1532582653172" duration="940000" />
+      <workItem from="1532582653172" duration="12466000" />
     </task>
     <task id="LOCAL-00001" summary="deleted idea">
       <created>1532525413431</created>
@@ -217,27 +367,29 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6594000" />
+    <option name="totallyTimeSpent" value="18120000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.32948583" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32988048" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32946378" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17578773" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19679381" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -250,7 +402,6 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +415,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="deleted idea" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/ElasticSdk.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/ElasticSearch/ElasticSdk.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2040">
           <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
@@ -283,7 +434,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/ElasticSdk.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/ElasticSearch/ElasticSdk.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="47" selection-start-line="47" selection-end-line="47" />
@@ -310,31 +461,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.3.2/elasticsearch-6.3.2.jar!/org/elasticsearch/action/index/IndexResponse.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-x-content/6.3.2/elasticsearch-x-content-6.3.2.jar!/org/elasticsearch/common/xcontent/XContentParser.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-x-content/6.3.2/elasticsearch-x-content-6.3.2-sources.jar!/org/elasticsearch/common/xcontent/XContentParser.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.3.2/elasticsearch-6.3.2-sources.jar!/org/elasticsearch/action/index/IndexResponse.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.3.2/elasticsearch-6.3.2-sources.jar!/org/elasticsearch/index/reindex/AbstractBulkByScrollRequestBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/Index.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4284" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/StreamsApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/valentine/StreamsApiTest.java">
@@ -345,21 +479,207 @@
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.3.2/elasticsearch-6.3.2-sources.jar!/org/elasticsearch/action/get/GetResponse.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/Index.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/ElasticSdk.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="932">
-          <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
+        <state relative-caret-position="85">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/ElasticSearch/ElasticSdk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4234#4235#0" expanded="true" />
             <element signature="e#4310#4311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/StreamsApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/Sha512EncryptionAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/Sha256CEncryptionAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/Sha512Encryptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/EncryptionAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/BENZ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/BmwProduction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/FactoryRelease.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/PersistedFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/Encryptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/CarProduction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern/Sha256Encryptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/BMW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/factoryMethodPattern1/BenzProduction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding>
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/valentine/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

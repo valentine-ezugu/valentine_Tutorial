@@ -1,4 +1,4 @@
-package com.valentine;
+package com.valentine.ElasticSearch;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -173,6 +173,7 @@ public class ElasticSdk {
             SearchResponse response = item.getResponse();
             nbHits += response.getHits().getTotalHits();
         }
+
      }
 
 
