@@ -1,6 +1,17 @@
 package com.valentine.factoryMethodPattern1;
 
-public interface Car {
+public class FactoryRelease {
 
-    String produceCar();
+    private CarProduction carProduction;
+    private String name;
+
+    public FactoryRelease(CarProduction carProduction, String carName ) {
+        this.carProduction =  carProduction;
+        this.name = carName;
+    }
+
+    public String release() {
+       return carProduction.produced(name);
+    }
+
 }
